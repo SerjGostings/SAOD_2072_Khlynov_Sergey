@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Seminar_1_Stack
+namespace Seminar2_Queue
 {
     static class Program
     {

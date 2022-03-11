@@ -1,1 +1,0 @@
-# SAOD_2072_Khlynov_Sergey

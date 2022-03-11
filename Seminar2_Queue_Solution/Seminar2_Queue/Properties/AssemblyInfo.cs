@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных со сборкой.
-[assembly: AssemblyTitle("Seminar_1_Stack")]
+[assembly: AssemblyTitle("Seminar2_Queue")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Seminar_1_Stack")]
+[assembly: AssemblyProduct("Seminar2_Queue")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("ef4960bd-8a75-48c9-9fb6-66c79bb8b05e")]
+[assembly: Guid("8a9e54f6-683d-47c5-bc24-c7c1840992f1")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //

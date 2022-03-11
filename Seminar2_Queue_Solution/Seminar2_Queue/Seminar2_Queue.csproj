@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EF4960BD-8A75-48C9-9FB6-66C79BB8B05E}</ProjectGuid>
+    <ProjectGuid>{8A9E54F6-683D-47C5-BC24-C7C1840992F1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Seminar_1_Stack</RootNamespace>
-    <AssemblyName>Seminar_1_Stack</AssemblyName>
+    <RootNamespace>Seminar2_Queue</RootNamespace>
+    <AssemblyName>Seminar2_Queue</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,7 +52,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyStack.cs" />
+    <Compile Include="MyQueue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Seminar_1_Stack
+namespace Seminar2_Queue
 {
     public partial class Form1 : Form
     {
@@ -16,13 +16,13 @@ namespace Seminar_1_Stack
         {
             InitializeComponent();
         }
-        MyStack<int> stack = new MyStack<int>(5);
+        MyQueue<int> queue = new MyQueue<int>(5);
 
         private void buttonPush_Click(object sender, EventArgs e)
         {
             try
             {
-                stack.Push(int.Parse(textBox1.Text));
+                queue.Push(int.Parse(textBox1.Text));
                 ToList();
             }
             catch (FormatException ex)
@@ -32,33 +32,30 @@ namespace Seminar_1_Stack
             }
             catch (Exception ex)
             {
-                textBox2.Text = ("Stack Overflow");
+                textBox2.Text = ("Queue Overflow");
             }
-
-
         }
         private void ToList()
         {
             listBox1.Items.Clear();
-            for (int i = 0; i < stack.ToString().Length; i++)
+            for (int i = 0; i < queue.ToString().Length; i++)
             {
-                if ((stack.ToString()[i] != default))
+                if (queue.ToString()[i] != default)
                 {
-                    listBox1.Items.Add(stack.ToString()[i]);
+                    listBox1.Items.Add(queue.ToString()[i]);
                 }
-
             }
         }
 
-        private void buttonTop_Click(object sender, EventArgs e)
+        private void buttonPeek_Click(object sender, EventArgs e)
         {
             try
             {
-                textBox2.Text = (stack.Top().ToString());
+                textBox2.Text = (queue.Peek().ToString());
             }
             catch (Exception ex)
             {
-                textBox2.Text = ("Stack is Empty");
+                textBox2.Text = ("Queue is Empty");
             }
         }
 
@@ -66,12 +63,12 @@ namespace Seminar_1_Stack
         {
             try
             {
-                textBox2.Text = (stack.Pop().ToString());
+                textBox2.Text = (queue.Pop().ToString());
                 ToList();
             }
             catch (Exception ex)
             {
-                textBox2.Text = ("Stack is Empty");
+                textBox2.Text = ("Queue is Empty");
             }
         }
 

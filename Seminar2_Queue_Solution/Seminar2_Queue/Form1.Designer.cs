@@ -1,5 +1,5 @@
 ﻿
-namespace Seminar_1_Stack
+namespace Seminar2_Queue
 {
     partial class Form1
     {
@@ -44,7 +44,7 @@ namespace Seminar_1_Stack
             this.listBox1.Location = new System.Drawing.Point(284, 82);
             this.listBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(66, 284);
+            this.listBox1.Size = new System.Drawing.Size(72, 284);
             this.listBox1.TabIndex = 0;
             // 
             // textBox1
@@ -72,18 +72,18 @@ namespace Seminar_1_Stack
             // 
             // buttonTop
             // 
-            this.buttonTop.Location = new System.Drawing.Point(375, 158);
+            this.buttonTop.Location = new System.Drawing.Point(384, 158);
             this.buttonTop.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonTop.Name = "buttonTop";
             this.buttonTop.Size = new System.Drawing.Size(108, 52);
             this.buttonTop.TabIndex = 3;
-            this.buttonTop.Text = "Top";
+            this.buttonTop.Text = "Peek";
             this.buttonTop.UseVisualStyleBackColor = true;
-            this.buttonTop.Click += new System.EventHandler(this.buttonTop_Click);
+            this.buttonTop.Click += new System.EventHandler(this.buttonPeek_Click);
             // 
             // buttonPop
             // 
-            this.buttonPop.Location = new System.Drawing.Point(375, 229);
+            this.buttonPop.Location = new System.Drawing.Point(384, 238);
             this.buttonPop.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.buttonPop.Name = "buttonPop";
             this.buttonPop.Size = new System.Drawing.Size(108, 52);
@@ -96,7 +96,7 @@ namespace Seminar_1_Stack
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.textBox2.Location = new System.Drawing.Point(375, 82);
+            this.textBox2.Location = new System.Drawing.Point(384, 86);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
@@ -110,7 +110,7 @@ namespace Seminar_1_Stack
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(729, 388);
+            this.ClientSize = new System.Drawing.Size(648, 388);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.buttonPop);
             this.Controls.Add(this.buttonTop);
