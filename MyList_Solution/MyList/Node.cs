@@ -8,13 +8,13 @@ namespace MyList
 {
     class Node <T>
     {
-        Node<T> prev;
-        Node<T> next;
+        public Node<T> prev;
+        public Node<T> next;
         T value;
-        public Node(T value, Node<T> prev, Node<T> next)
+        public Node(T value, Node<T> prevN, Node<T> nextN)
         {
-            this.prev = prev;
-            this.next = next;
+            this.prev = prevN;
+            this.next = nextN;
             this.value = value;
         }
     }
