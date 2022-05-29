@@ -1,0 +1,11 @@
+D:\works\2 курс\САОД\4 задание\Связный список\Связный список\bin\Debug\Связный список.exe.config
+D:\works\2 курс\САОД\4 задание\Связный список\Связный список\bin\Debug\Связный список.exe
+D:\works\2 курс\САОД\4 задание\Связный список\Связный список\bin\Debug\Связный список.pdb
+D:\works\2 курс\САОД\4 задание\Связный список\Связный список\obj\Debug\Связный список.csproj.AssemblyReference.cache
+D:\works\2 курс\САОД\4 задание\Связный список\Связный список\obj\Debug\Связный список.csproj.SuggestedBindingRedirects.cache
+D:\works\2 курс\САОД\4 задание\Связный список\Связный список\obj\Debug\Связный_список.Form1.resources
+D:\works\2 курс\САОД\4 задание\Связный список\Связный список\obj\Debug\Связный_список.Properties.Resources.resources
+D:\works\2 курс\САОД\4 задание\Связный список\Связный список\obj\Debug\Связный список.csproj.GenerateResource.cache
+D:\works\2 курс\САОД\4 задание\Связный список\Связный список\obj\Debug\Связный список.csproj.CoreCompileInputs.cache
+D:\works\2 курс\САОД\4 задание\Связный список\Связный список\obj\Debug\Связный список.exe
+D:\works\2 курс\САОД\4 задание\Связный список\Связный список\obj\Debug\Связный список.pdb
